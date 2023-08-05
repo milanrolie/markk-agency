@@ -43,7 +43,7 @@
     </div>
     <div class="big-mailto stagger">
       <a class="big-mail-text" href="mailto: contact@studiorolie.com"
-        >contact<br class="footer-br" />@studiorolie.com
+        >contact<br class="footer-br" />@markk.nl
         <div class="svg-box">
           <svg
             class="svg1"

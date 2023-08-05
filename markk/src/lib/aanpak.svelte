@@ -51,7 +51,8 @@
     </div>
 
     <div class="right-side">
-      <h3>taktiek</h3>
+      <h3>tactiek</h3>
+      <p>Scoren doe je samen, wij geven de voorzet, jij kopt hem in. Samen scoren met ons ziet er vaak als volgt uit:</p>
       <ul>
         <li>
             <p class="label">1. Koffie drinken</p>
@@ -85,7 +86,7 @@
           <p class="label">5. Content</p>
           <p>
             Content vormt de <i>ziel</i> van je site. Tijd om je verhaal te vertellen
-            en je gevoel over te brengen. Met tekst, foto, video en animatie..
+            met tekst, foto, video en animatie.
           </p>
         </li>
         <li>

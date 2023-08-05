@@ -14,7 +14,7 @@
         start: "top+=120",
         end: "top+=1000",
       },
-      x: "-55%",
+      x: "-47%",
     });
     const circle = document.getElementById("circle");
     const cursorText = document.querySelector(".cursor-text");
@@ -88,15 +88,15 @@
 
 <style>
   h4 {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 3%;
   }
   .cases {
     height: 120vh;
     width: 100%;
-    /* overflow: hidden; */
-    padding: 5%;
-    padding-top: 10%;
+    padding: 2%;
+    padding-top: 15%;
   }
 
   .case-wrapper {
@@ -104,8 +104,6 @@
     display: flex;
     flex-direction: row;
     gap: 1%;
-    top: 10%;
-    height: 90vh;
     width: max-content;
   }
 
@@ -130,13 +128,6 @@
 
   .case img:hover {
     transform: scale(1.03);
-  }
-
-  .arrow {
-    position: absolute;
-    right: 5%;
-    transform: translateY(-50px);
-    fill: var(--main-bright);
   }
 
   .circle {

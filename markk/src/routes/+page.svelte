@@ -6,7 +6,6 @@
   import Cases from "../lib/cases.svelte";
   import Footer from "../lib/Footer.svelte";
   import Aanpak from "../lib/aanpak.svelte";
-  import Contact from "../lib/contact.svelte";
   import Blog from "../lib/blog.svelte";
 
 
