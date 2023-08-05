@@ -85,7 +85,7 @@
           <p class="label">5. Content</p>
           <p>
             Content vormt de <i>ziel</i> van je site. Tijd om je verhaal te vertellen
-            en je gevoel over te brengen. Met tekst, foto, video en animatie.
+            en je gevoel over te brengen. Met tekst, foto, video en animatie..
           </p>
         </li>
         <li>
