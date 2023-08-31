@@ -1,6 +1,6 @@
 <script>
-  import Nav from "$lib/Nav.svelte";
-  import Footer from "$lib/Footer.svelte";
+  import Nav from "$lib/nav.svelte";
+  import Footer from "$lib/footer.svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
   import { onMount } from "svelte";

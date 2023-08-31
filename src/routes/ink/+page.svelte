@@ -1,9 +1,9 @@
 <script>
-  import Nav from "$lib/Nav.svelte";
+  import Nav from "$lib/nav.svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
   import { onMount } from "svelte";
-  import Footer from "$lib/Footer.svelte";
+  import Footer from "$lib/footer.svelte";
   import Cases from "$lib/cases.svelte";
   import ink from "$lib/assets/legends-macbook2.jpg";
   import ink2 from "$lib/assets/legends-macbook.jpg";
