@@ -1,5 +1,5 @@
 {
-	"name": "markk",
+	"name": "myapp",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -21,4 +21,3 @@
 		"split-type": "^0.3.3"
 	}
 }
-
