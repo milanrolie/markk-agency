@@ -126,6 +126,7 @@
     background-color: var(--main-dark);
     color: var(--main-offwhite);
     padding: 0;
+    margin-top: 7.9%;
 }
 
 .section-wrapper {
@@ -184,13 +185,14 @@
     border-radius: .2em;
     margin-bottom: 1em;
     font-size: 1.2rem;
+}
 
-  }
-
-  .andere-taktiek {
+.andere-taktiek {
     font-size: 3rem;
     width: 100%;
     font-weight: 600;
     margin-top: 10%;
+    max-width: 60%;
+    margin-bottom: 10%;
   }
 </style>

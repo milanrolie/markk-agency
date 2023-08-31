@@ -6,11 +6,11 @@
   gsap.registerPlugin(ScrollTrigger);
 
   onMount(() => {
-    gsap.to(".word", {
+    gsap.to(".words", {
       y: 0,
       stagger: 0.2,
       delay: 0.2,
-      duration: 0.1,
+      duration: 0.5,
     });
 
     gsap.to(".intro", {
@@ -102,10 +102,10 @@
   <section class="home">
     <div class="title-wrapper">
       <h1>
-        <span class="creatief word">creatief</span>
-        <span class="webbureau word">webbureau</span> <br />
-        <span class="met word">met</span>
-        <span class="ballen word"> ballen</span>
+        <span class="creatief words">creatief</span>
+        <span class="webbureau words">webbureau</span> <br />
+        <span class="met words">met</span>
+        <span class="ballen words"> ballen</span>
       </h1>
       <div class="ball" />
       <div class="intro-animation">
@@ -127,7 +127,7 @@
 
   h1 {
     font-size: 13vw;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 0.9em;
     text-align: center;
   }
@@ -161,7 +161,7 @@
     margin-left: -10%;
   }
 
-  .word {
+  .words {
     transform: translateY(-500px);
     transition: transform 0.5s;
   }
@@ -182,6 +182,8 @@
   }
 
   .intro {
-    /* transform: translateY(-100px); */
+    transform: translateY(-100px);
+    margin-top: .5%;
+    font-weight: 300;
   }
 </style>

@@ -2,6 +2,7 @@
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
   import { onMount } from "svelte";
+  import ink from "$lib/assets/legends-macbook2.jpg";
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -9,12 +10,13 @@
     gsap.to(".case-wrapper", {
       scrollTrigger: {
         trigger: ".cases",
-        scrub: 2,
-        pin: true,
-        start: "top+=120",
-        end: "top+=1000",
+        scrub: 4,
+        // pin: true,
+        start: "top+=100",
+        end: "bottom",
+        // markers:true,
       },
-      x: "-47%",
+      x: "-50%",
     });
     const circle = document.getElementById("circle");
     const cursorText = document.querySelector(".cursor-text");
@@ -43,43 +45,47 @@
   <h4>Zie hoe ons werk voor anderen werkt.</h4>
   <div class="case-wrapper">
     <div class="case">
-      <img src="https://studiorolie.com/_app/immutable/assets/grrr-iphone.6eb41851.webp" alt="" />
-      <h4>Family fitness</h4>
-      <p>Website, Brand identity, Video</p>
-    </div>
-    <div class="case">
       <img
-        src="https://studiorolie.com/_app/immutable/assets/favela.aba46be7.webp"
+        src="https://studiorolie.com/_app/immutable/assets/grrr-iphone.6eb41851.webp"
         alt=""
       />
       <h4>Family fitness</h4>
       <p>Website, Brand identity, Video</p>
     </div>
     <div class="case">
-      <img
-        src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-        alt=""
-      />
+      <img src={ink} alt="" />
       <h4>Family fitness</h4>
       <p>Website, Brand identity, Video</p>
     </div>
+    <a href="/ink">
+      <div class="case">
+        <img
+          src="https://images.unsplash.com/photo-1590771998996-8589ec9b5ac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+          alt=""
+        />
+        <h4>Family fitness</h4>
+        <p>Website, Brand identity, Video</p>
+      </div>
+    </a>
     <div class="case">
       <img
-        src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        src="https://twintig-utrecht.nl/wp-content/uploads/2022/01/Ruimte.png"
         alt=""
       />
       <h4>Family fitness</h4>
       <p>Website, Brand identity, Video</p>
     </div>
+    <div class="case bluebg" />
     <div class="case">
-      <img
-        src="https://images.unsplash.com/photo-1591258370814-01609b341790?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-        alt=""
-      />
-      <h4>Family fitness</h4>
-      <p>Website, Brand identity, Video</p>
-    </div>
+        <img
+          src="https://images.unsplash.com/photo-1590771998996-8589ec9b5ac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+          alt=""
+        />
+        <h4>Family fitness</h4>
+        <p>Website, Brand identity, Video</p>
+      </div>
   </div>
+  
   <div id="circle" class="circle">
     <p class="cursor-text" />
     <div class="line" />
@@ -87,31 +93,40 @@
 </section>
 
 <style>
+  section {
+    padding-left: 0%;
+  }
+
   h4 {
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 700;
     margin-bottom: 3%;
+    color: var(--main-bright);
   }
   .cases {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
-    padding: 2%;
-    padding-top: 15%;
+    /* padding: 2%; */
+    padding-bottom: 0;
+    padding-top: 30vh;
+    margin-bottom: 13vh;
   }
 
   .case-wrapper {
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    /* gap: 1%; */
     width: max-content;
+    height: 100%;
   }
 
   .case {
     width: 35vw;
-    height: 70vh;
+    height: 100%;
     clip-path: inset(0px);
     transition: 0.4s;
+    cursor: pointer;
   }
 
   .case:hover {
@@ -155,5 +170,9 @@
   .case-wrapper:hover .circle {
     opacity: 1;
     transform: scale(2);
+  }
+
+  .bluebg {
+    background-color: var(--main-dark);
   }
 </style>

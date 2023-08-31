@@ -32,4 +32,8 @@
     });
   </script>
   
+<style>
+  
+</style>
+
   <slot />

@@ -7,17 +7,16 @@
   import Footer from "../lib/Footer.svelte";
   import Aanpak from "../lib/aanpak.svelte";
   import Blog from "../lib/blog.svelte";
-
-
+  import IntroAnimatie from "../lib/IntroAnimatie.svelte";
 
 </script>
 
+<IntroAnimatie />
 <Nav />
 <IntroText />
 <BigImage />
 <About />
 <Cases />
 <Aanpak />
-<!-- <Contact /> -->
 <Blog />
 <Footer />
