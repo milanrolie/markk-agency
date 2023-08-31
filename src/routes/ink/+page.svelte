@@ -310,10 +310,10 @@
       padding: 0;
     }
 
-    .date {
+    /* .date {
       font-size: 0.7em;
       display: none;
-    }
+    } */
 
     .introduction p {
       max-width: 100%;

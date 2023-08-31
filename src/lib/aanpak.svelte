@@ -35,15 +35,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 <section class="aanpak">
   <div class="section-wrapper">
     <div class="left-side">
@@ -160,8 +151,6 @@
     font-size: 10vw;
   }
 
-  ul {
-  }
 
   li {
     list-style-type: none;

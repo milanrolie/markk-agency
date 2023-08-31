@@ -168,7 +168,6 @@
 </section>
 
 
-<OtherProjects />
 <Footer />
 
 <style>
